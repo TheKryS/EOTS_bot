@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dotenv = "*"
+aiogram = "==3.18.0"
+psutil = "==7.0.0"
+gputil = "*"
+py3nvml = "*"
+nvidia-ml-py = "*"
+matplotlib = "*"
+nvidia-ml-py3 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
